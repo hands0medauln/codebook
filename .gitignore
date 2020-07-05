@@ -1,0 +1,15 @@
+.DS_Store
+*.exe
+
+*.aux
+*.log
+*.toc
+
+*.fls
+*.xdv
+*.pdf
+*.fdb_latexmk
+
+.cquery_cache
+
+*.gz
