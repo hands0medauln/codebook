@@ -5,6 +5,10 @@ bitset<40> bk(k);
 //將string直接轉為bitset
 string str = "10100110";
 bitset<40> bstr(str);
+// To int
+bitset<N+5>(str).to_ulong()
+// To long long
+bitset<N+5>(str).to_ullong()
 // access i-th bit
 bset[2] == 1;
 
