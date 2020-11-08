@@ -53,14 +53,24 @@ dalun
 \subsection{Stirling}
 \lstinputlisting{Math/Stirling.h}
 
+\subsection{矩陣快速冪}
+\lstinputlisting{Math/matrix_fast_exp.cpp}
+
+\subsection{快速算Fibo}
+\lstinputlisting{Math/fibo.cpp}
+
+\subsection{快速冪}
+\lstinputlisting{Math/fast_exp.cpp}
+
+\subsection{模反元素}
+\lstinputlisting{Math/mod_inverse.cpp}
+
 %%%%%%%%%%% 模相關
 \subsection{mod}
 % ?
 \subsubsection{CRT}
 \lstinputlisting{Math/CRT.cpp}
-% ?
-\subsubsection{extgcd}
-\lstinputlisting{Math/extgcd.cpp}
+
 % ? https://github.com/Erichsu1224/Return0/blob/master/CodeBook/Math/eularphi_table.cpp
 \subsubsection{Euler Phi}
 \lstinputlisting{Math/euler_phi.cpp}
@@ -104,7 +114,20 @@ dalun
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% 圖論
 \section{Graph}
 
+%%%%%%%
+
+\subsection{求強連通}
+
+\subsubsection{Tarjan}
+\lstinputlisting{Graph/tarjan.cpp}
+
+%%%%%%%
+
 \subsection{最短路}
+
+\subsubsection{bellman\_ford}
+\lstinputlisting{Graph/ShortestPath/bellman_ford.cpp}
+
 \subsubsection{dijkstra}
 \lstinputlisting{Graph/ShortestPath/dijkstra.h}
 
@@ -114,24 +137,63 @@ dalun
 \subsubsection{floyd}
 \lstinputlisting{Graph/ShortestPath/floyd_warshall.h}
 
+\subsubsection{次短路}
+\lstinputlisting{Graph/ShortestPath/sub_short.cpp}
+
+%%%%%%%
+
 \subsection{MST}
+
+\subsubsection{最小樹形圖(MSTon有向圖)}
+\lstinputlisting{Graph/mst/dmst.cpp}
+
+\subsubsection{次小生成樹}
+\lstinputlisting{Graph/mst/sub_best_mst.cpp}
+
 \subsubsection{kruskal}
 \lstinputlisting{Graph/mst/kruskal.h}
 
 \subsubsection{prim}
 \lstinputlisting{Graph/mst/prim.h}
 
-\subsection{maxflow}
-\subsubsection{Dinic}
+%%%%%%%
+
+\subsection{flow}
+
+\subsubsection{MaxFlow-Dinic}
 \lstinputlisting{Graph/flow/dinic.cpp}
+
+\subsubsection{MinCostFlow}
+\lstinputlisting{Graph/flow/min_cost_flow.cpp}
+
+%%%%%%%
+
+\subsection{二分圖}
+
+\subsubsection{匹配-匈牙利演算法}
+\lstinputlisting{Graph/bipartite/bipartite_matching.cpp}
+
+
+%%%%%%%
+
+\subsection{LCA}
+
+\lstinputlisting{Graph/LCA/tarjan_offline.cpp}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% 幾何
 \section{geometry}
 \subsection{convex hull}
 \lstinputlisting{geometry/convex_hull/convex_hull.h}
 
+\subsection{向量}
+\lstinputlisting{geometry/vector.cpp}
+
 \subsection{線段相交}
 \lstinputlisting{geometry/line_intersection.h}
+
+\subsection{最遠點對}
+\lstinputlisting{geometry/max_distance.cpp}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% Dynamic Programming
 \section{DP}
@@ -164,6 +226,10 @@ dalun
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% Sequence
 \section{Sequence}
+
+\subsection{AC自動機}
+\lstinputlisting{Sequence/AC_Automation.cpp}
+
 
 \subsection{RMQ}
 \subsubsection{seg-tree}
